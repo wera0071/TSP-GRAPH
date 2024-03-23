@@ -16,10 +16,10 @@ public:
         vertices.push_back(point);
     }
 
-    // Удалите 'Graph::' из объявления метода
+   
     double distance(int i, int j) const {
-        const Point& p1 = vertices.at(i); // используйте at для защиты от выхода за границы
-        const Point& p2 = vertices.at(j); // аналогично здесь
+        const Point& p1 = vertices.at(i); 
+        const Point& p2 = vertices.at(j); 
         return std::hypot(p1.x - p2.x, p1.y - p2.y);
     }
 
@@ -31,7 +31,7 @@ public:
         return vertices[i];
     }
 
-    // Дополнительные методы по необходимости
+    
 };
 
 #endif // GRAPH_H

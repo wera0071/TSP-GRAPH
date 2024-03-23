@@ -9,7 +9,7 @@ class TSPSolver : public Base {
 public:
     TSPSolver() {}
 
-    Tour solve(const Graph& graph); // Прототип функции
+    Tour solve(const Graph& graph); 
 };
 
 #endif // TSPSOLVER_H 

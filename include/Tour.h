@@ -34,8 +34,6 @@ public:
     const std::vector<int>& getVertexIndices() const {
         return vertexIndices;
     }
-
-    // ... Другие методы и члены класса ...
 };
 
 #endif // TOUR_H
